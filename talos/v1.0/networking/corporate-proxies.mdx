@@ -1,8 +1,6 @@
 ---
 title: "Corporate Proxies"
 description: "How to configure Talos Linux to use proxies in a corporate environment"
-aliases:
-  - ../../guides/configuring-corporate-proxies
 ---
 
 ## Appending the Certificate Authority of MITM Proxies
@@ -53,7 +51,7 @@ machine:
       - <ip n>
 ```
 
-If a proxy is required before Talos machine configuration is applied, use [kernel command line arguments]({{< relref "../../reference/kernel" >}}):
+If a proxy is required before Talos machine configuration is applied, use [kernel command line arguments] "../../reference/kernel" >}}):
 
 ```text
 talos.environment=http_proxy=<http-proxy> talos.environment=https_proxy=<https-proxy>

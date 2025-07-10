@@ -41,9 +41,7 @@
                 "pages": [
                   "talos/v1.0/getting-started/quickstart",
                   "talos/v1.0/getting-started/system-requirements",
-                  "talos/v1.0/getting-started/talosctl",
-                  "talos/v1.0/getting-started/prodnotes",
-                  "talos/v1.0/getting-started/what-is-new/index"
+                  "talos/v1.0/getting-started/talosctl"
                 ]
               },
               {
@@ -51,26 +49,14 @@
                 "pages": [
                   "talos/v1.0/networking/advanced-networking",
                   "talos/v1.0/networking/corporate-proxies",
-                  "talos/v1.0/networking/device-selector",
-                  "talos/v1.0/networking/egress-domains",
-                  "talos/v1.0/networking/ethernet-config",
-                  "talos/v1.0/networking/host-dns",
-                  "talos/v1.0/networking/ingress-firewall",
-                  "talos/v1.0/networking/kubeprism",
-                  "talos/v1.0/networking/kubespan",
-                  "talos/v1.0/networking/metal-network-configuration",
-                  "talos/v1.0/networking/predictable-interface-names",
-                  "talos/v1.0/networking/siderolink",
-                  "talos/v1.0/networking/vip",
-                  "talos/v1.0/networking/wireguard-network"
+                  "talos/v1.0/networking/device-selector"
                 ]
               },
               {
                 "group": "Platform-Specific Installation",
                 "pages": [
                   "talos/v1.0/platform-specific-install/air-gapped",
-                  "talos/v1.0/platform-specific-install/boot-assets",
-                  "talos/v1.0/platform-specific-install/omni"
+                  "talos/v1.0/platform-specific-install/boot-assets"
                 ]
               }
             ]
@@ -82,18 +68,14 @@
                 "group": "Overview",
                 "pages": [
                   "talos/v2.0/overview/welcome",
-                  "talos/v2.0/overview/what-is-talos",
-                  "talos/v2.0/overview/talos-architectural-overview"
+                  "talos/v2.0/overview/what-is-talos"
                 ]
               },
               {
                 "group": "Getting Started",
                 "pages": [
                   "talos/v2.0/getting-started/quickstart",
-                  "talos/v2.0/getting-started/system-requirements",
-                  "talos/v2.0/getting-started/talosctl",
-                  "talos/v2.0/getting-started/prodnotes",
-                  "talos/v2.0/getting-started/what-is-new/index"
+                  "talos/v2.0/getting-started/system-requirements"
                 ]
               },
               {
@@ -101,18 +83,7 @@
                 "pages": [
                   "talos/v2.0/networking/advanced-networking",
                   "talos/v2.0/networking/corporate-proxies",
-                  "talos/v2.0/networking/device-selector",
-                  "talos/v2.0/networking/egress-domains",
-                  "talos/v2.0/networking/ethernet-config",
-                  "talos/v2.0/networking/host-dns",
-                  "talos/v2.0/networking/ingress-firewall",
-                  "talos/v2.0/networking/kubeprism",
-                  "talos/v2.0/networking/kubespan",
-                  "talos/v2.0/networking/metal-network-configuration",
-                  "talos/v2.0/networking/predictable-interface-names",
-                  "talos/v2.0/networking/siderolink",
-                  "talos/v2.0/networking/vip",
-                  "talos/v2.0/networking/wireguard-network"
+                  "talos/v2.0/networking/device-selector"
                 ]
               },
               {
@@ -141,29 +112,21 @@
             "group": "Installation and Setup",
             "pages": [
               "omni/Installation-and-setup/how-to-install-talosctl",
-              "omni/Installation-and-setup/install-and-configure-omnictl",
-              "omni/Installation-and-setup/install-talos-linux-extensions",
-              "omni/Installation-and-setup/create-a-patch-for-cluster-machines",
-              "omni/Installation-and-setup/how-to-create-machine-classes/index",
-              "omni/Installation-and-setup/how-to-set-initial-machine-labels"
+              "omni/Installation-and-setup/install-and-configure-omnictl"
             ]
           },
           {
             "group": "Cluster Management",
             "pages": [
               "omni/cluster-management/how-to-create-a-cluster/index",
-              "omni/cluster-management/how-to-create-a-hybrid-cluster/index",
-              "omni/cluster-management/how-to-export-cluster-template/index",
-              "omni/cluster-management/how-to-scale-a-cluster/index",
-              "omni/cluster-management/how-to-use-kubectl-with-omni/index"
+              "omni/cluster-management/how-to-create-a-hybrid-cluster/index"
             ]
           },
           {
             "group": "Security and Authentication",
             "pages": [
               "omni/security-and-authentication/authentication-and-authorization",
-              "omni/security-and-authentication/omni-kms-disk-encryption",
-              "omni/security-and-authentication/how-to-expose-http-service-from-a-cluster/index"
+              "omni/security-and-authentication/omni-kms-disk-encryption"
             ]
           }
         ]
@@ -190,18 +153,13 @@
                 "group": "CSI",
                 "pages": [
                   "kubernetes-guides/kubernetes-guides/csi/ceph-with-rook",
-                  "kubernetes-guides/kubernetes-guides/csi/kubeprism",
-                  "kubernetes-guides/kubernetes-guides/csi/local-storage",
-                  "kubernetes-guides/kubernetes-guides/csi/storage",
-                  "kubernetes-guides/kubernetes-guides/csi/synology-csi"
+                  "kubernetes-guides/kubernetes-guides/csi/kubeprism"
                 ]
               },
               {
                 "group": "Security",
                 "pages": [
-                  "kubernetes-guides/kubernetes-guides/security/pod-security",
-                  "kubernetes-guides/kubernetes-guides/security/seccomp-profiles",
-                  "kubernetes-guides/kubernetes-guides/security/usernamespace"
+                  "kubernetes-guides/kubernetes-guides/security/pod-security"
                 ]
               },
               "kubernetes-guides/kubernetes-guides/device-plugins",
