@@ -1,74 +1,223 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Siderolabs Test Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "contextual": {
+   "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude"
+   ]
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": [
+        "tab": "Talos",
+        "versions": [
           {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+            "version": "Talos - v1.0",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "talos/v1.0/overview/welcome",
+                  "talos/v1.0/overview/what-is-talos",
+                  "talos/v1.0/overview/talos-architectural-overview"
+                ]
+              },
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "talos/v1.0/getting-started/quickstart",
+                  "talos/v1.0/getting-started/system-requirements",
+                  "talos/v1.0/getting-started/talosctl",
+                  "talos/v1.0/getting-started/prodnotes",
+                  "talos/v1.0/getting-started/what-is-new/index"
+                ]
+              },
+              {
+                "group": "Networking",
+                "pages": [
+                  "talos/v1.0/networking/advanced-networking",
+                  "talos/v1.0/networking/corporate-proxies",
+                  "talos/v1.0/networking/device-selector",
+                  "talos/v1.0/networking/egress-domains",
+                  "talos/v1.0/networking/ethernet-config",
+                  "talos/v1.0/networking/host-dns",
+                  "talos/v1.0/networking/ingress-firewall",
+                  "talos/v1.0/networking/kubeprism",
+                  "talos/v1.0/networking/kubespan",
+                  "talos/v1.0/networking/metal-network-configuration",
+                  "talos/v1.0/networking/predictable-interface-names",
+                  "talos/v1.0/networking/siderolink",
+                  "talos/v1.0/networking/vip",
+                  "talos/v1.0/networking/wireguard-network"
+                ]
+              },
+              {
+                "group": "Platform-Specific Installation",
+                "pages": [
+                  "talos/v1.0/platform-specific-install/air-gapped",
+                  "talos/v1.0/platform-specific-install/boot-assets",
+                  "talos/v1.0/platform-specific-install/omni"
+                ]
+              }
             ]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+            "version": "Talos - v2.0",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "talos/v2.0/overview/welcome",
+                  "talos/v2.0/overview/what-is-talos",
+                  "talos/v2.0/overview/talos-architectural-overview"
+                ]
+              },
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "talos/v2.0/getting-started/quickstart",
+                  "talos/v2.0/getting-started/system-requirements",
+                  "talos/v2.0/getting-started/talosctl",
+                  "talos/v2.0/getting-started/prodnotes",
+                  "talos/v2.0/getting-started/what-is-new/index"
+                ]
+              },
+              {
+                "group": "Networking",
+                "pages": [
+                  "talos/v2.0/networking/advanced-networking",
+                  "talos/v2.0/networking/corporate-proxies",
+                  "talos/v2.0/networking/device-selector",
+                  "talos/v2.0/networking/egress-domains",
+                  "talos/v2.0/networking/ethernet-config",
+                  "talos/v2.0/networking/host-dns",
+                  "talos/v2.0/networking/ingress-firewall",
+                  "talos/v2.0/networking/kubeprism",
+                  "talos/v2.0/networking/kubespan",
+                  "talos/v2.0/networking/metal-network-configuration",
+                  "talos/v2.0/networking/predictable-interface-names",
+                  "talos/v2.0/networking/siderolink",
+                  "talos/v2.0/networking/vip",
+                  "talos/v2.0/networking/wireguard-network"
+                ]
+              },
+              {
+                "group": "Platform-Specific Installation",
+                "pages": [
+                  "talos/v2.0/platform-specific-install/air-gapped",
+                  "talos/v2.0/platform-specific-install/boot-assets",
+                  "talos/v2.0/platform-specific-install/omni"
+                ]
+              }              
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Omni",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Getting Started",
             "pages": [
-              "api-reference/introduction"
+              "omni/getting-started/what-is-omni",
+              "omni/getting-started/quickstart"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Installation and Setup",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "omni/Installation-and-setup/how-to-install-talosctl",
+              "omni/Installation-and-setup/install-and-configure-omnictl",
+              "omni/Installation-and-setup/install-talos-linux-extensions",
+              "omni/Installation-and-setup/create-a-patch-for-cluster-machines",
+              "omni/Installation-and-setup/how-to-create-machine-classes/index",
+              "omni/Installation-and-setup/how-to-set-initial-machine-labels"
+            ]
+          },
+          {
+            "group": "Cluster Management",
+            "pages": [
+              "omni/cluster-management/how-to-create-a-cluster/index",
+              "omni/cluster-management/how-to-create-a-hybrid-cluster/index",
+              "omni/cluster-management/how-to-export-cluster-template/index",
+              "omni/cluster-management/how-to-scale-a-cluster/index",
+              "omni/cluster-management/how-to-use-kubectl-with-omni/index"
+            ]
+          },
+          {
+            "group": "Security and Authentication",
+            "pages": [
+              "omni/security-and-authentication/authentication-and-authorization",
+              "omni/security-and-authentication/omni-kms-disk-encryption",
+              "omni/security-and-authentication/how-to-expose-http-service-from-a-cluster/index"
+            ]
+          }
+        ]
+      },{
+        "tab": "Kubernetes Guides",
+        "groups": [
+          {
+            "group": "Deploying and Managing workloads",
+            "pages": [
+              "kubernetes-guides/deploy-and-manage-workloads/deploy-metrics-server"
+            ]
+          },
+          {
+            "group": "Kubernetes Guides",
+            "pages": [
+              {
+                "group": "CNI",
+                "pages": [
+                  "kubernetes-guides/kubernetes-guides/cni/cilium",
+                  "kubernetes-guides/kubernetes-guides/cni/multus"
+                ]
+              },
+              {
+                "group": "CSI",
+                "pages": [
+                  "kubernetes-guides/kubernetes-guides/csi/ceph-with-rook",
+                  "kubernetes-guides/kubernetes-guides/csi/kubeprism",
+                  "kubernetes-guides/kubernetes-guides/csi/local-storage",
+                  "kubernetes-guides/kubernetes-guides/csi/storage",
+                  "kubernetes-guides/kubernetes-guides/csi/synology-csi"
+                ]
+              },
+              {
+                "group": "Security",
+                "pages": [
+                  "kubernetes-guides/kubernetes-guides/security/pod-security",
+                  "kubernetes-guides/kubernetes-guides/security/seccomp-profiles",
+                  "kubernetes-guides/kubernetes-guides/security/usernamespace"
+                ]
+              },
+              "kubernetes-guides/kubernetes-guides/device-plugins",
+              "kubernetes-guides/kubernetes-guides/upgrading-kubernetes"
             ]
           }
         ]
       }
+
     ],
+
     "global": {
       "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
         {
           "anchor": "Community",
           "href": "https://mintlify.com/community",
           "icon": "slack"
         },
         {
-          "anchor": "Blog",
+          "anchor": "Changelog",
           "href": "https://mintlify.com/blog",
           "icon": "newspaper"
         }
@@ -85,12 +234,7 @@
         "label": "Support",
         "href": "mailto:hi@mintlify.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
