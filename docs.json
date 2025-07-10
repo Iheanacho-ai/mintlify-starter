@@ -64,18 +64,20 @@
           {
             "version": "Talos - v2.0",
             "groups": [
-              {
+             {
                 "group": "Overview",
                 "pages": [
                   "talos/v2.0/overview/welcome",
-                  "talos/v2.0/overview/what-is-talos"
+                  "talos/v2.0/overview/what-is-talos",
+                  "talos/v2.0/overview/talos-architectural-overview"
                 ]
               },
               {
                 "group": "Getting Started",
                 "pages": [
                   "talos/v2.0/getting-started/quickstart",
-                  "talos/v2.0/getting-started/system-requirements"
+                  "talos/v2.0/getting-started/system-requirements",
+                  "talos/v2.0/getting-started/talosctl"
                 ]
               },
               {
@@ -90,10 +92,9 @@
                 "group": "Platform-Specific Installation",
                 "pages": [
                   "talos/v2.0/platform-specific-install/air-gapped",
-                  "talos/v2.0/platform-specific-install/boot-assets",
-                  "talos/v2.0/platform-specific-install/omni"
+                  "talos/v2.0/platform-specific-install/boot-assets"
                 ]
-              }              
+              }   
             ]
           }
         ]
@@ -130,44 +131,39 @@
             ]
           }
         ]
-      },{
+      },
+      {
         "tab": "Kubernetes Guides",
         "groups": [
           {
-            "group": "Deploying and Managing workloads",
+            "group": "Deploying and Managing Workloads",
             "pages": [
               "kubernetes-guides/deploy-and-manage-workloads/deploy-metrics-server"
             ]
           },
           {
-            "group": "Kubernetes Guides",
+            "group": "CNI",
             "pages": [
-              {
-                "group": "CNI",
-                "pages": [
-                  "kubernetes-guides/kubernetes-guides/cni/cilium",
-                  "kubernetes-guides/kubernetes-guides/cni/multus"
-                ]
-              },
-              {
-                "group": "CSI",
-                "pages": [
-                  "kubernetes-guides/kubernetes-guides/csi/ceph-with-rook",
-                  "kubernetes-guides/kubernetes-guides/csi/kubeprism"
-                ]
-              },
-              {
-                "group": "Security",
-                "pages": [
-                  "kubernetes-guides/kubernetes-guides/security/pod-security"
-                ]
-              },
-              "kubernetes-guides/kubernetes-guides/device-plugins",
-              "kubernetes-guides/kubernetes-guides/upgrading-kubernetes"
+              "kubernetes-guides/kubernetes-guides/cni/cilium",
+              "kubernetes-guides/kubernetes-guides/cni/multus"
+            ]
+          },
+          {
+            "group": "CSI",
+            "pages": [
+              "kubernetes-guides/kubernetes-guides/csi/ceph-with-rook",
+              "kubernetes-guides/kubernetes-guides/csi/kubeprism"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "kubernetes-guides/kubernetes-guides/security/pod-security"
             ]
           }
         ]
       }
+
 
     ],
 

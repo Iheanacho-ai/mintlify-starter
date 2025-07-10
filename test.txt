@@ -1,0 +1,139 @@
+      //   "versions": [
+      //     {
+      //       "version": "Talos - v1.0",
+      //       "groups": [
+      //         {
+      //           "group": "Overview",
+      //           "pages": [
+      //             "talos/v1.0/overview/welcome",
+      //             "talos/v1.0/overview/what-is-talos",
+      //             "talos/v1.0/overview/talos-architectural-overview"
+      //           ]
+      //         },
+      //         {
+      //           "group": "Getting Started",
+      //           "pages": [
+      //             "talos/v1.0/getting-started/quickstart",
+      //             "talos/v1.0/getting-started/system-requirements",
+      //             "talos/v1.0/getting-started/talosctl"
+      //           ]
+      //         },
+      //         {
+      //           "group": "Networking",
+      //           "pages": [
+      //             "talos/v1.0/networking/advanced-networking",
+      //             "talos/v1.0/networking/corporate-proxies",
+      //             "talos/v1.0/networking/device-selector"
+      //           ]
+      //         },
+      //         {
+      //           "group": "Platform-Specific Installation",
+      //           "pages": [
+      //             "talos/v1.0/platform-specific-install/air-gapped",
+      //             "talos/v1.0/platform-specific-install/boot-assets"
+      //           ]
+      //         }
+      //       ]
+      //     },
+      //     {
+      //       "version": "Talos - v2.0",
+      //       "groups": [
+      //        {
+      //           "group": "Overview",
+      //           "pages": [
+      //             "talos/v2.0/overview/welcome",
+      //             "talos/v2.0/overview/what-is-talos",
+      //             "talos/v2.0/overview/talos-architectural-overview"
+      //           ]
+      //         },
+      //         {
+      //           "group": "Getting Started",
+      //           "pages": [
+      //             "talos/v2.0/getting-started/quickstart",
+      //             "talos/v2.0/getting-started/system-requirements",
+      //             "talos/v2.0/getting-started/talosctl"
+      //           ]
+      //         },
+      //         {
+      //           "group": "Networking",
+      //           "pages": [
+      //             "talos/v2.0/networking/advanced-networking",
+      //             "talos/v2.0/networking/corporate-proxies",
+      //             "talos/v2.0/networking/device-selector"
+      //           ]
+      //         },
+      //         {
+      //           "group": "Platform-Specific Installation",
+      //           "pages": [
+      //             "talos/v2.0/platform-specific-install/air-gapped",
+      //             "talos/v2.0/platform-specific-install/boot-assets"
+      //           ]
+      //         }   
+      //       ]
+      //     }
+      //   ]
+      // },
+      // {
+      //   "tab": "Omni",
+      //   "groups": [
+      //     {
+      //       "group": "Getting Started",
+      //       "pages": [
+      //         "omni/getting-started/what-is-omni",
+      //         "omni/getting-started/quickstart"
+      //       ]
+      //     },
+      //     {
+      //       "group": "Installation and Setup",
+      //       "pages": [
+      //         "omni/Installation-and-setup/how-to-install-talosctl",
+      //         "omni/Installation-and-setup/install-and-configure-omnictl"
+      //       ]
+      //     },
+      //     {
+      //       "group": "Cluster Management",
+      //       "pages": [
+      //         "omni/cluster-management/how-to-create-a-cluster/index",
+      //         "omni/cluster-management/how-to-create-a-hybrid-cluster/index"
+      //       ]
+      //     },
+      //     {
+      //       "group": "Security and Authentication",
+      //       "pages": [
+      //         "omni/security-and-authentication/authentication-and-authorization",
+      //         "omni/security-and-authentication/omni-kms-disk-encryption"
+      //       ]
+      //     }
+      //   ]
+      // },
+      // {
+      //   "tab": "Kubernetes Guides",
+      //   "groups": [
+      //     {
+      //       "group": "Deploying and Managing Workloads",
+      //       "pages": [
+      //         "kubernetes-guides/deploy-and-manage-workloads/deploy-metrics-server"
+      //       ]
+      //     },
+      //     {
+      //       "group": "CNI",
+      //       "pages": [
+      //         "kubernetes-guides/kubernetes-guides/cni/cilium",
+      //         "kubernetes-guides/kubernetes-guides/cni/multus"
+      //       ]
+      //     },
+      //     {
+      //       "group": "CSI",
+      //       "pages": [
+      //         "kubernetes-guides/kubernetes-guides/csi/ceph-with-rook",
+      //         "kubernetes-guides/kubernetes-guides/csi/kubeprism"
+      //       ]
+      //     },
+      //     {
+      //       "group": "Security",
+      //       "pages": [
+      //         "kubernetes-guides/kubernetes-guides/security/pod-security"
+      //       ]
+      //     }
+      //   ]
+      // }
