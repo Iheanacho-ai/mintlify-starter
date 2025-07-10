@@ -8,6 +8,10 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "banner": {
+    "content": "🎉 **New Release:** Check out the latest Talos v2.0 features and improvements! [Learn more →](/changelog/june-2025)",
+    "dismissible": true
+  },
   "contextual": {
    "options": [
      "copy",
